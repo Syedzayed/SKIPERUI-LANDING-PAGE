@@ -4,6 +4,7 @@ import { Globe } from "lucide-react";
 
 const HeroContent = () => {
   return (
+    <>
     <div className="flex flex-col items-center py-16">
       <img
         className="h-10 mb-14"
@@ -33,7 +34,10 @@ const HeroContent = () => {
       </svg>
       <p className="text-black/60 text-xl">To make your dream Website live by just <span className="font-bold">Copy and paste</span></p>
     </div>
+    <img className="absolute top-80 left-24 h-[700px]" src="https://skiper-ui.com/bg/bg_1.svg" alt="" />
+    <img className="absolute top-80 right-24 h-[500px]" src="https://skiper-ui.com/bg/bg_2.svg" alt="" />
+    </>
   );
-};
+}; 
 
-export default HeroContent;
+export default HeroContent; 
